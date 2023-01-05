@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0C9482295DF89B003B1DC8 /* BirthdayListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C9481295DF89B003B1DC8 /* BirthdayListApp.swift */; };
+		9F0C9484295DF89B003B1DC8 /* BirthdayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C9483295DF89B003B1DC8 /* BirthdayList.swift */; };
+		9F0C9486295DF89D003B1DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C9485295DF89D003B1DC8 /* Assets.xcassets */; };
+		9F0C9489295DF89D003B1DC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C9488295DF89D003B1DC8 /* Preview Assets.xcassets */; };
+		9F0C9497295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C9495295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodeld */; };
+		9F0C9499295E0CC7003B1DC8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C9498295E0CC7003B1DC8 /* PersistenceController.swift */; };
+		9F0C949B295E10C9003B1DC8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C949A295E10C9003B1DC8 /* DataManager.swift */; };
+		9F0C949D295F6E95003B1DC8 /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C949C295F6E95003B1DC8 /* BirthdayViewModel.swift */; };
+		9F0C949F2961E4BF003B1DC8 /* BirthdayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C949E2961E4BF003B1DC8 /* BirthdayListViewModel.swift */; };
+		9F0C94A12961E7CA003B1DC8 /* BirthdayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94A02961E7CA003B1DC8 /* BirthdayListView.swift */; };
+		9F0C94A32961E98F003B1DC8 /* AddNewBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94A22961E98F003B1DC8 /* AddNewBirthdayView.swift */; };
+		9F0C94A52961EAE5003B1DC8 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94A42961EAE5003B1DC8 /* BirthdayCell.swift */; };
+		9F0C94A72961EB97003B1DC8 /* UpdateBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94A62961EB97003B1DC8 /* UpdateBirthdayView.swift */; };
+		9F0C94A92961F019003B1DC8 /* AddNewBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94A82961F019003B1DC8 /* AddNewBirthdayViewModel.swift */; };
+		9F0C94AB2961F306003B1DC8 /* BackgroundClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94AA2961F306003B1DC8 /* BackgroundClearView.swift */; };
+		9F0C94AD2961FABA003B1DC8 /* UpdateBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C94AC2961FABA003B1DC8 /* UpdateBirthdayViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F0C947E295DF89B003B1DC8 /* BirthdayList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0C9481295DF89B003B1DC8 /* BirthdayListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListApp.swift; sourceTree = "<group>"; };
+		9F0C9483295DF89B003B1DC8 /* BirthdayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayList.swift; sourceTree = "<group>"; };
+		9F0C9485295DF89D003B1DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0C9488295DF89D003B1DC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F0C9496295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayListApp.xcdatamodel; sourceTree = "<group>"; };
+		9F0C9498295E0CC7003B1DC8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		9F0C949A295E10C9003B1DC8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9F0C949C295F6E95003B1DC8 /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		9F0C949E2961E4BF003B1DC8 /* BirthdayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewModel.swift; sourceTree = "<group>"; };
+		9F0C94A02961E7CA003B1DC8 /* BirthdayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListView.swift; sourceTree = "<group>"; };
+		9F0C94A22961E98F003B1DC8 /* AddNewBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayView.swift; sourceTree = "<group>"; };
+		9F0C94A42961EAE5003B1DC8 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
+		9F0C94A62961EB97003B1DC8 /* UpdateBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayView.swift; sourceTree = "<group>"; };
+		9F0C94A82961F019003B1DC8 /* AddNewBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayViewModel.swift; sourceTree = "<group>"; };
+		9F0C94AA2961F306003B1DC8 /* BackgroundClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundClearView.swift; sourceTree = "<group>"; };
+		9F0C94AC2961FABA003B1DC8 /* UpdateBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0C947B295DF89B003B1DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0C9475295DF89B003B1DC8 = {
+			isa = PBXGroup;
+			children = (
+				9F0C9480295DF89B003B1DC8 /* BirthdayList */,
+				9F0C947F295DF89B003B1DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0C947F295DF89B003B1DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C947E295DF89B003B1DC8 /* BirthdayList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0C9480295DF89B003B1DC8 /* BirthdayList */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9494295DF954003B1DC8 /* Utils */,
+				9F0C9493295DF946003B1DC8 /* Services */,
+				9F0C9492295DF93B003B1DC8 /* ViewModels */,
+				9F0C9491295DF932003B1DC8 /* Views */,
+				9F0C9490295DF928003B1DC8 /* App */,
+				9F0C948F295DF91A003B1DC8 /* CoreDataDB */,
+				9F0C9487295DF89D003B1DC8 /* Preview Content */,
+			);
+			path = BirthdayList;
+			sourceTree = "<group>";
+		};
+		9F0C9487295DF89D003B1DC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9488295DF89D003B1DC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F0C948F295DF91A003B1DC8 /* CoreDataDB */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9495295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodeld */,
+			);
+			path = CoreDataDB;
+			sourceTree = "<group>";
+		};
+		9F0C9490295DF928003B1DC8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9481295DF89B003B1DC8 /* BirthdayListApp.swift */,
+				9F0C9485295DF89D003B1DC8 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9F0C9491295DF932003B1DC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9483295DF89B003B1DC8 /* BirthdayList.swift */,
+				9F0C94A02961E7CA003B1DC8 /* BirthdayListView.swift */,
+				9F0C94A22961E98F003B1DC8 /* AddNewBirthdayView.swift */,
+				9F0C94A42961EAE5003B1DC8 /* BirthdayCell.swift */,
+				9F0C94A62961EB97003B1DC8 /* UpdateBirthdayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F0C9492295DF93B003B1DC8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C949C295F6E95003B1DC8 /* BirthdayViewModel.swift */,
+				9F0C949E2961E4BF003B1DC8 /* BirthdayListViewModel.swift */,
+				9F0C94A82961F019003B1DC8 /* AddNewBirthdayViewModel.swift */,
+				9F0C94AC2961FABA003B1DC8 /* UpdateBirthdayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9F0C9493295DF946003B1DC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C9498295E0CC7003B1DC8 /* PersistenceController.swift */,
+				9F0C949A295E10C9003B1DC8 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9F0C9494295DF954003B1DC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C94AA2961F306003B1DC8 /* BackgroundClearView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0C947D295DF89B003B1DC8 /* BirthdayList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0C948C295DF89D003B1DC8 /* Build configuration list for PBXNativeTarget "BirthdayList" */;
+			buildPhases = (
+				9F0C947A295DF89B003B1DC8 /* Sources */,
+				9F0C947B295DF89B003B1DC8 /* Frameworks */,
+				9F0C947C295DF89B003B1DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayList;
+			productName = BirthdayList;
+			productReference = 9F0C947E295DF89B003B1DC8 /* BirthdayList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0C9476295DF89B003B1DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9F0C947D295DF89B003B1DC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9F0C9479295DF89B003B1DC8 /* Build configuration list for PBXProject "BirthdayList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0C9475295DF89B003B1DC8;
+			productRefGroup = 9F0C947F295DF89B003B1DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0C947D295DF89B003B1DC8 /* BirthdayList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0C947C295DF89B003B1DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0C9489295DF89D003B1DC8 /* Preview Assets.xcassets in Resources */,
+				9F0C9486295DF89D003B1DC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0C947A295DF89B003B1DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0C949F2961E4BF003B1DC8 /* BirthdayListViewModel.swift in Sources */,
+				9F0C9484295DF89B003B1DC8 /* BirthdayList.swift in Sources */,
+				9F0C949B295E10C9003B1DC8 /* DataManager.swift in Sources */,
+				9F0C9482295DF89B003B1DC8 /* BirthdayListApp.swift in Sources */,
+				9F0C94AD2961FABA003B1DC8 /* UpdateBirthdayViewModel.swift in Sources */,
+				9F0C94A52961EAE5003B1DC8 /* BirthdayCell.swift in Sources */,
+				9F0C94A72961EB97003B1DC8 /* UpdateBirthdayView.swift in Sources */,
+				9F0C94A92961F019003B1DC8 /* AddNewBirthdayViewModel.swift in Sources */,
+				9F0C949D295F6E95003B1DC8 /* BirthdayViewModel.swift in Sources */,
+				9F0C9497295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodeld in Sources */,
+				9F0C94A32961E98F003B1DC8 /* AddNewBirthdayView.swift in Sources */,
+				9F0C9499295E0CC7003B1DC8 /* PersistenceController.swift in Sources */,
+				9F0C94A12961E7CA003B1DC8 /* BirthdayListView.swift in Sources */,
+				9F0C94AB2961F306003B1DC8 /* BackgroundClearView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F0C948A295DF89D003B1DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F0C948B295DF89D003B1DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0C948D295DF89D003B1DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayList/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashiash.BirthdayList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0C948E295DF89D003B1DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayList/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashiash.BirthdayList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0C9479295DF89B003B1DC8 /* Build configuration list for PBXProject "BirthdayList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0C948A295DF89D003B1DC8 /* Debug */,
+				9F0C948B295DF89D003B1DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0C948C295DF89D003B1DC8 /* Build configuration list for PBXNativeTarget "BirthdayList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0C948D295DF89D003B1DC8 /* Debug */,
+				9F0C948E295DF89D003B1DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F0C9495295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F0C9496295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodel */,
+			);
+			currentVersion = 9F0C9496295E0A3F003B1DC8 /* BirthdayListApp.xcdatamodel */;
+			path = BirthdayListApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F0C9476295DF89B003B1DC8 /* Project object */;
+}
